@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .background {
+            position: relative;
+            background-image: url(./prove-bg.png);
+            height: 60vh;
+        }
+
+        .logo {
+            display: flex;
+            justify-content: space-around;
+            padding: 60px;
+            color: aliceblue;
+        }
+
+        .logo p {
+            font-size: 8px;
+        }
+
+        .Template {
+            border: 2px solid black;
+        }
+
+        .icons {
+            border: 2px solid black;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #f2b028;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 35px;
+        }
+
+        /* .dub{
+            display: flex;
+        } */
+        .dub p {
+            text-align: center;
+        }
+
+        .text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: floralwhite;
+        }
+
+        .ima {
+            margin: 20px;
+            position: relative;
+            top: -99px;
+            left: 5px;
+            border-top: 10px solid #f2b028;
+            background-color: rgb(255, 255, 255);
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto;
+            justify-items: stretch;
+            gap: 0px;
+            box-shadow: 2px 2px 2px rgb(235, 209, 209);
+
+        }
+
+        .ima img {
+            height: 100%;
+            width: 100%;
+        }
+
+        .gallery {
+            position: relative;
+            top: -89px;
+            box-shadow: 2px 2px 2px rgb(235, 209, 209);
+            padding: 20px;
+            padding-bottom: 20px;
+            border-top: 10px solid #f2b028;
+            background-color: rgba(255, 255, 255, 0.968);
+            margin: 20px;
+            display: grid;
+            grid-template-columns: 20% 20% 20% 20%;
+            justify-content: space-evenly;
+            grid-template-rows: auto auto;
+            row-gap: 15px;
+        }
+
+        .dub :hover {
+            cursor: pointer;
+            background-color: chocolate;
+            color: black;
+        }
+
+        .gallery img {
+            padding-top: 15px;
+            width: 100%;
+            height: 100%;
+        }
+
+        .Footer {
+            position: relative;
+            background-color: #f2b028;
+            height: 50px;
+        }
+
+        .Footer p {
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Template">
+        <section class="background">
+            <div class="logo">
+                <div class="dub">
+                    <div class="icons" style="background-image: url(./home-icon.png);"></div>
+                    <p>WELCOME</p>
+                </div>
+                <div class="dub">
+                    <div class="icons" style="background-image: url(./about-icon.png);"></div>
+                    <p>ABOUT US</p>
+                </div>
+                <div class="dub">
+                    <div class="icons" style="background-image:url(./featured-icon.png);"></div>
+                    <p>FEATURED</p>
+                </div>
+                <div class="dub">
+                    <div class="icons" style="background-image: url(./projects-icon.png);"></div>
+                    <p>PROJECTS</p>
+                </div>
+                <div class="dub">
+                    <div class="icons" style="background-image: url(./contact-icon.png);"></div>
+                    <p>CONTACT US</p>
+                </div>
+                <div class="text">
+                    <h1>ABOUT US</h1>
+                    <h5 style="color: darkgoldenrod;">GET MORE INFO ABOUT OUR AGENCY</h5>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="ima">
+                <div><img src="./left-about-image.jpg" alt=""></div>
+                <div style="margin: 5px;">
+                    <h3>WHO ARE YOU?</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur obcaecati nihil consectetur
+                        tempora
+                        itaque voluptates sint tempore ipsum, nostrum vel dignissimos unde, officia vero incidunt sed
+                        necessitatibus. Ullam, consequuntur incidunt.</p>
+                    <button style="background-color: #f2b028;border: none;height: 35px;width: 100px;">Discover
+                        More</button>
+                </div>
+                <div style="margin: 5px;">
+                    <h3>WHAT WE DO?</h3>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ipsam corporis tempora vero
+                        earum
+                        nam non a explicabo aspernatur aliquid. Suscipit nobis natus fugit culpa ratione exercitationem
+                        ipsum
+                        quae est?</P>
+                    <button style="background-color: #f2b028;border: none;height: 35px;width:100px;  ;">Discover
+                        More</button>
+                </div>
+                <div style="overflow: hidden;"><img src="./right-about-image.jpg" alt=""></div>
+            </div>
+        </section>
+        <footer class="Footer">
+            <div>
+                <p>Copyright 2017 Your company | Design: <strong>templatemo</strong></p>
+            </div>
+        </footer>
+        <section class="background">
+            <div class="logo">
+                <div class="dub">
+                    <div class="icons" style="background-image: url(./home-icon.png);"></div>
+                    <p>WELCOME</p>
+                </div>
+                <div class="dub">
+                    <div class="icons" style="background-image: url(./about-icon.png);"></div>
+                    <p>ABOUT US</p>
+                </div>
+                <div class="dub">
+                    <div class="icons" style="background-image:url(./featured-icon.png);"></div>
+                    <p>FEATURED</p>
+                </div>
+                <div class="dub">
+                    <div class="icons" style="background-image: url(./projects-icon.png);"></div>
+                    <p>PROJECTS</p>
+                </div>
+                <div class="dub">
+                    <div class="icons" style="background-image: url(./contact-icon.png);"></div>
+                    <p>CONTACT US</p>
+                </div>
+                <div class="text">
+                    <h1>OUR PROJECTS</h1>
+                    <h5 style="color: darkgoldenrod;">HERE YOU CAN CHECK OUR RECENT PROJECTS</h5>
+                </div>
+            </div>
+        </section>
+        <section class="gallery">
+            <img src="./project-item-01.jpg" alt="">
+            <img src="./project-item-02.jpg" alt="">
+            <img src="./project-item-03.jpg" alt="">
+            <img src="./project-item-04.jpg" alt="">
+            <img src="./project-item-05.jpg" alt="">
+            <img src="./project-item-06.jpg" alt="">
+            <img src="./project-item-07.jpg" alt="">
+            <img src="./project-item-08.jpg" alt="">
+        </section>
+        <footer class="Footer">
+            <div>
+                <p>Copyright 2017 Your company | Design: <strong>templatemo</strong></p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html
